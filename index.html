@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Line</title>
+    <link rel="stylesheet" href="./style.css">  
+
+    <style>
+      h3{
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+        align-self: flex-start;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./public/img/logo.png" alt="russel street medical logo">
+            <span>Story Line</span>
+        </a>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./developers.html">Developers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./setting.html">Setting</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./game.html">Start Game</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- About Us Subsection -->
+    <style>
+      .about-us{
+        box-shadow: var(--dark-shadow);
+      }
+      .about-us p{
+        font-size: 1.2rem;
+      }
+      .about-us-header {
+          display: flex;
+          align-items: flex-end;    
+          height: 100vh;
+          background-image: url(./public/img/background.png);
+          background-position: center;
+          background-size: cover;
+        }
+        .about-us-header .container{
+          flex-direction: column;
+        }
+        .about-us-header .content{
+          position: relative;
+          width: 100vw;
+          background-color: var(--clr-primary-2);
+          opacity: .8;
+          padding: 50px 20%;
+          color: white;
+          font-size: 1rem;
+          font-weight: 600;
+          text-align: center;
+        }
+        .about-us-body{
+          flex-direction: column;
+          padding-top: 80px;
+          padding-bottom: 100px;
+        }
+        .about-us-body p{
+          margin-bottom: 30px;
+          padding-left: 20px;
+        }
+        .about-us-body .price-table{
+          margin-left: 20px;
+        }
+    </style>
+    <section class="about-us">
+      <header class="about-us-header" id="home">
+        <div class="container">
+          <div class="content">
+            <h4>We are here to make reading more interesing!</h4>
+          </div>
+        </div>
+      </header>
+      <div class="about-us-body container" id="about-us">
+        <h3>Introduction</h3>
+        <p>
+          This is a text-based game, also known as interactive fiction. It is a game where all interactions are by text. The game has different options for every step users are gonna make and users have to be careful with each decision they make because each of them comes with different consequences. In this game, you can decide who or what your character is gonna be..... The game contains over 100 story line, the ending would be diffrefrent base on the option user choose        </p>
+      </div>
+    </section>
+
+    <!-- Who We Are Subsection -->
+    <!-- <style>
+      .who-we-are .container{
+        flex-direction: column;
+        margin: 80px auto 120px auto;
+      }
+      .who-we-are h3{
+        margin-bottom: 50px;
+      }
+      .who-we-are .context{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .who-we-are h4{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+      }
+      .who-we-are p{
+        font-size: 1rem;
+      }
+      .who-we-are img{
+        width: 100%; 
+      }
+      .card{
+        box-shadow: var(--dark-shadow);
+        margin: 0px 20px;
+        padding: 15px;
+      }
+    </style>
+
+    <section class="who-we-are" id="who-we-are">
+      <div class="container">
+        <h3 class="">WHO WE ARE</h3>
+        <div class="context">
+            <div class="card">
+              <img src="./public/img/doctor-asian-lady.jpg" alt="doctor lady">
+              <article>
+                <h4>Ms Kiyoko Tsu</h4>
+                <p>
+                  Kiyoko Tsu completed her Bachelor of Nursing at the Yong Loo Lin School of Medicine in Singapor e in 2019.
+                  She is an accredited Nurse Immuniser and has worked in various hospitals within metropolitan Melbourne.
+                </p>
+              </article>
+            </div>
+            <div class="card">
+              <img src="./public/img/doctor-white-lady.jpg" alt="doctor lady">
+              <article>
+                <h4>Dr. Abigale Laurentis</h4>
+                <p>
+                  Abigale Laurentis completed her medical degree at the University of Queensland in 2013, whereshe also obtained a Bachelor of Science in Biomedicine.
+                  Over her training and practice, Abigale has worked in a variety of clinical settings including specialities at Latrobe Health.
+                </p>
+              </article>
+            </div>
+            <div class="card">
+              <img src="./public/img/doctor-white-man.jpg" alt="doctor man">
+              <article>
+                <h4>Dr. Stephen Hill</h4>
+                <p>
+                  Stephen Hill graduated from Auckland University in New Zealand in 2014, and obtained his Fellowship from the Royal Australian College of General Practitioners in 2017.
+                  Over his training and practice, Stephen worked in internal medicine at the Royal Children's Hospital Melbourne before transitioning to General Practice.
+                </p>
+              </article>
+            </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Service Area Subsection -->
+    <!-- <style>
+      .service-area{
+        box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+      }
+      .service-area .container{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 80px;
+      }
+      .register-form {
+        border-radius: 15px;
+        width: 100%;
+        padding: 20px;
+      }
+      .form-element{
+        margin-top: 20px;
+      }
+      .form-element input{
+        border: none;
+      }
+      .register-btn:hover{
+        opacity: 80%;
+      }
+      .service-area h4{
+        margin-top: 30px;
+      }
+      .register-btn{
+        margin-top: 30px;
+        width: 100%; 
+        padding: .7rem;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--clr-primary); 
+        color: white;
+      }
+      .book-link{
+        font-weight: 600;
+        color: var(--clr-primary)
+      }      
+    </style>
+    <section class="service-area" id="service-area">
+      <div class="container">
+        <h3>Service Area</h3>
+        <form id="register-form" class="register-form">
+          <div class="form-element">
+              <label class="form-label">Name</label>
+              <input type="text" name="name">
+          </div>
+          <div class="form-element">
+            <label class="form-label">Phone Number</label>
+            <input type="text" name="number">
+          </div>
+          <button class="register-btn">Register Now</button>
+          <p>
+            Register Now to become of of our members <br><br>
+            If you already become the member of the Russel Street Medical, you can
+            <a class="book-link" href="./book.html">Book Right Now! </a>
+          </p>
+        </form>
+
+      </div>
+    </section>
+  </main> -->
+  
+  <!-- Footer -->
+  <footer class="footer display-grid">
+    <div class="container">
+        <div class="footer-column">
+            <h2>Payment Method</h2>
+            <div class="payment-images">
+                <img class="payment-image" src="./public/img/cc-visa-brands.svg" alt="">
+                <img class="payment-image" src="./public/img/cc-mastercard-brands.svg" alt="">
+                <img class="payment-image" src="./public/img/cc-amex-brands.svg" alt="">
+                <img class="payment-image" src="./public/img/cc-discover-brands.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-column">
+          <h2>Developer</h2>
+          <h3>Name:</br>Yao Lin (Ronny)</h3>
+          <h3>Student ID:</br>s3747404</h3>
+        </div>
+        <div class="footer-column">
+            <h2>Contact Us</h2>
+            <h3>E–mail:</br>help@russelstreetmedical.com</h3>
+            <h3>Call us:</br>04353322211</h3>
+        </div>
+        <div class="footer-column">
+            <h2>Follow Us</h2>
+            <div class="social-images">
+                <img class="social-image" src="./public/img/facebook-square-brands.svg" alt="">
+                <img class="social-image" src="./public/img/instagram-square-brands.svg" alt="">
+            </div>
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>
